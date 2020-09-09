@@ -1,0 +1,20 @@
+.container {
+  width: 98%;
+  height: 97vh;
+  background-color: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 25% auto 25%;
+}
+.right {
+  height: inherit;
+}
+.middle {
+  background-color: grey;
+  height: inherit;
+}
+.left {
+  background-color: black;
+  height: inherit;
+}
